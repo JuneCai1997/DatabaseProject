@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="zh">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <title>Events</title>
+    <!-- Bootstrap core CSS -->
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+
+    
+    <!-- Custom styles for this template -->
+    <link href="/static/css/book.css" rel="stylesheet">
+  </head>
+  <body class="text-center">
+    
+<form class="form-signin">
+  <h1 class="h1 mb-3 font-weight-normal">Search for event</h1>
+  <br>
+  <label for="number" class="sr-only">Number of people</label>
+  <input id="number" class="form-control" placeholder="Number of people" required>
+  <br>
+  <h4>Date</h4>
+  <label for="Date" class="sr-only">Date</label>
+  <input type="date" id="Start_Datetime" class="form-control" placeholder="Date" required>
+  <br>
+  <h4>Time slot</h4>
+  <div class="d-block my-4">
+    <label for="time">8AM to 10 AM</label>
+    <input type="radio" name="time_slot" id="time" />
+    <br>
+    <label for="time">11AM to 1PM</label>
+    <input type="radio" name="time_slot" id="time" />
+    <br>
+    <label for="time">1PM to 3PM</label>
+    <input type="radio" name="time_slot" id="time" />
+    <br>
+    <label for="time">4PM to 6PM</label>
+    <input type="radio" name="time_slot" id="time" />
+    </div>
+  </div>
+  
+  <button class="btn btn-lg btn-primary btn-block" type="submit">Search</button>
+</form>
+
+
+    
+  </body>
+</html>

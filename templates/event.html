@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="zh">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <title>Events</title>
+    <!-- Bootstrap core CSS -->
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+
+    
+    <!-- Custom styles for this template -->
+    <link href="/static/css/book.css" rel="stylesheet">
+  </head>
+  <body class="text-center">
+    
+<form class="form-signin">
+  <h1 class="h1 mb-3 font-weight-normal">Search for event</h1>
+  <h4>Event type</h4>
+  <div class="d-block my-2">
+    <label for="seminar">Seminar</label>
+    <input type="radio" name="event_type" id="seminar" />
+    <br>
+    <label for="exhibition">Exhibition</label>
+    <input type="radio" name="event_type" id="exhibition" />
+    </div>
+  </div>
+  <br>
+  <label for="inputTopic" class="sr-only">Topic</label>
+  <input id="inputTopic" class="form-control" placeholder="Topic" required>
+  <br>
+  <label for="inputTopic" class="sr-only">Event Name</label>
+  <input id="inputTopic" class="form-control" placeholder="Event Name" required>
+  <br>
+  <h4>Start Datetime</h4>
+  <label for="Start_Datetime" class="sr-only">Start Datetime</label>
+  <input type="date" id="Start_Datetime" class="form-control" placeholder="Start Datetime" required>
+  <br>
+  <h4>End Datetime</h4>
+  <label for="End_Datetime" class="sr-only">End Datetime</label>
+  <input type="date"  id="End_Datetime" class="form-control" placeholder="End Datetime" required>
+  <br>
+  <button class="btn btn-lg btn-primary btn-block" type="submit">Search</button>
+</form>
+
+
+    
+  </body>
+</html>
